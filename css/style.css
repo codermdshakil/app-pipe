@@ -1,0 +1,320 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.f1-title{
+    font-size: 22px;
+    color: black;
+}
+.bg-navbars{
+    background:white;
+    box-shadow: 2px 3px 12px rgba(128, 128, 128, 0.541);
+}
+.app-title{
+ color:#f83292;
+}
+.title-span{
+    color: #814096;
+}
+.style-text{
+    text-decoration: none;
+    padding:15px 12px;
+    font-weight: 550;
+    color: #814096;
+    margin-top:10px;
+    transition: .5s;
+}
+.style-text:hover{
+    color:#f83292;
+}
+/* home-slider starts here   */
+.home-slider{
+
+    background-image: url("./img/images/home-bg-img.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top center;
+    padding-top: 100px;
+
+}
+.home-title{
+    font-size:60px;
+}
+.home-images img{
+    animation: float 2s linear infinite ;
+
+}
+@keyframes float{
+    0%,100%{
+        transform: translateY(0px);
+        
+    }
+    50%{
+      
+        transform: translateY(-40px);
+    }
+}
+.buttons{
+    background:linear-gradient( to right, #814096,#f83292 );
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.buttons:hover{
+    transform: scale(1.1);
+}
+/* home-slider ends here   */
+
+/* feature-section starts here  */
+.feature-title{
+    color: #bd3994;
+    font-weight: bold;
+}
+.feature {
+    text-align: center;
+    box-shadow: 0px 7px 25px #8080807d !important;
+    padding: 35px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.buttons1{
+    background:linear-gradient( to right, #814096,#f83292 );
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 25px;
+    transition: 1s;
+
+}
+.buttons1:hover{
+    transform:scale(1.1)
+}
+.lead{
+    font-size: 15px;
+}
+/* feature-section ends here  */
+/* about-section  starts here  */
+
+.about {
+    background-image: url(./img/images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 172px;
+    margin-left: -15px;
+}
+.about-images img {
+    width: 490px;
+    padding-left: 8px;
+    margin-top: 158px;
+}
+.about-contents{
+    margin-top: 100px;
+
+}
+/* about-section ends here  */
+/* subcribe-section starts here  */
+.subscribe-section{
+    position: relative;
+    background-image: url("./img/images/subscribe-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+.main_subscribe{
+    color: white;
+    background: #f83292;
+}
+.inputfile{
+    display: block;
+    margin: auto;
+    background:transparent;
+    color: white;
+    padding: 12px 10px;
+    border: 2px solid white;
+    border-radius: 25px;
+    outline: none;
+}
+
+.inputfile:focus{
+    color: white;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+}
+
+.button-4 {
+    position:absolute;
+    width: 100px;
+    height: 34px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    padding: 2px 10px;
+    top: 168px;
+    left: 62%;
+    color: #f83292;
+    transition: .4s;
+}
+.button-4:hover{
+    width: 100px;
+    height: 34px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    padding: 2px 10px;
+    top: 168px;
+    left: 62%;
+    color: black;
+}
+/* subcribe-section ends here  */
+/* prople section starts here   */
+.p-title{
+    color:#bd3994;
+    font-weight: bold;
+}
+.single-p{
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 12px rgba(128, 128, 128, 0.692) !important;
+}
+/* prople section ends here   */
+/* pricing section starts here  */
+.p-title{
+    color:#bd3994 ;
+}
+.dolar{
+    color:#f83292 ;
+}
+.price-title{
+    color: #814096;
+}
+.price-single{
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%);
+    margin-bottom: 40px;
+}
+.price-single:hover{
+    outline: none;
+    border: 2px solid #f83292 ;
+}
+.uniqe-p{
+    border: 2px solid #f83292 ;
+}
+.price-single li{
+    margin: 5px;
+}
+/* pricing section ends here  */
+/* contact-section starts here  */
+
+.form-main{
+    box-shadow: 0px 5px 12px rgba(128, 128, 128, 0.692) !important;
+    background: #fff;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.form-control{
+    border-radius: 25px;
+}
+.name{
+    border: 2px solid #f83292 ;
+}
+.email{
+    border: 2px solid #f83292 ;
+}
+.number{
+    border: 2px solid #f83292 ;
+}
+.massege{
+    border-radius: 8px;
+    border: 2px solid #f83292 ;
+}
+/* contact-section ends here  */
+/* footer-section starts here  */
+.footer-section{
+    background-image: url("./img/images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+.footer-1{
+    padding-bottom: 20px;
+}
+.f1-title{
+    padding-top: 30px;
+}
+.footer-1 h2{
+    width:160px;
+    border-bottom: 2px solid white;
+}
+.footer-2 h2{
+    width:180px;
+    border-bottom: 2px solid white;
+}
+.styled{
+    transition: .2s;
+}
+.styled:hover{
+    text-decoration: underline;
+}
+/* .footer2{
+    padding-bottom: 100px;
+
+}  */
+.footer-3 h2{
+    width:210px;
+    border-bottom: 2px solid white;
+}
+.footer-3 a{
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+}
+.footer-3 a:hover{
+    color: #f83292;
+}
+.footer-4 h2{
+    width:210px;
+    border-bottom: 2px solid white;
+}
+.icons{
+    width: 300px;
+}
+.style-icon{
+    width: 42px;
+    height: 40px;
+    margin-right: 10px;
+    color: #f83292;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    text-decoration: none;
+    place-items: center;
+    border-radius: 100%;
+}
+
+.last-content{
+    border-bottom: 2px solid white;
+}
+li{
+    color: black;
+}
+p{
+    color: black;
+}
+.f_icon{
+    color: black;
+}
+.f_contact{
+    color: black;
+}
+/* footer-section ends here  */
